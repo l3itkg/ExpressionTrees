@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "85ca1ba4-2d40-4063-b389-d720a10b73b6",
+		"name": "ExpressionTrees",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "staff-with-highest-category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44370/api/staff/staff-with-highest-category",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"api",
+						"staff",
+						"staff-with-highest-category"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "staff-all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44370/api/staff/staff-all",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"api",
+						"staff",
+						"staff-all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "staff-filter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44370/api/staff/staff-filter?firstName=Ол&orderBy=FirstName.desc",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44370",
+					"path": [
+						"api",
+						"staff",
+						"staff-filter"
+					],
+					"query": [
+						{
+							"key": "firstName",
+							"value": "Ол"
+						},
+						{
+							"key": "orderBy",
+							"value": "FirstName.desc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
